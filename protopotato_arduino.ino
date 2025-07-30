@@ -116,7 +116,7 @@ void setup() {
   TCCR1B |= B00000101; // Prescaler = 1024
   OCR1A = 64000;       // Timer Compare1A Register
   TIMSK1 |= B00000010; // Enable Timer COMPA Interrupt
-  Serial.begin(38400);
+  // Serial.begin(38400);
 }
 
 void loop() {
